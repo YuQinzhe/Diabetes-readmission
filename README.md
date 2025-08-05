@@ -60,3 +60,16 @@ Hospitals often struggle to identify patients at highest risk of early readmissi
 - Integrate model explainability tools (e.g., SHAP values)
 - Explore other models like Random Forest and Logistics Regression Model .etc.
 - Validate on external datasets or real hospital records
+
+---
+
+## Data Source
+
+This project is based on a publicly available dataset originally used for research in diabetes patient readmission:
+
+- **Source**: [UCI Machine Learning Repository – Diabetes 130-US hospitals for years 1999–2008 Data Set](https://archive.ics.uci.edu/ml/datasets/diabetes+130-us+hospitals+for+years+1999-2008)
+
+The dataset includes over 100,000 hospital encounters for diabetic patients and contains information on demographics, diagnoses, lab results, and readmission status.
+
+> Note: The dataset has been cleaned, subsetted, and engineered for this project’s modeling purpose. See the `Data_Processing` notebook for detailed transformation steps.
+
